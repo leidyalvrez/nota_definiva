@@ -1,0 +1,13 @@
+#input
+Nc=input("Digite nota cognitiva ")
+Nc=int(Nc)
+Np=input("Digite nota procedimental ")
+Np=int(Np)
+Na=input("Digite nota actitudinal ")
+Na=int(Na)
+Au=input("Digite nota de autoevaluacion ")
+Au=int(Au)
+Bi=input("Digite nota de bimestral ")
+Bi=int(Bi)
+ND=input(0.3*Nc+0.3*Np+0.1*Na+0.1*Au+0.2*Bi)
+ND=int(ND) 
